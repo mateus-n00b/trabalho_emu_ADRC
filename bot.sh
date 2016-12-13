@@ -6,9 +6,9 @@ then
 fi
 
 exec > /dev/null 2> /tmp/botl0g
-for x in {1..500}
+for x in {1..100}
 do
     wget "$1" &
-    # rm index*
+    rm index*
 		sleep 0.1
 done

@@ -10,6 +10,6 @@ sleep 2
 for x in {1..100}
 do
     time wget "$1"
-    # rm index*
+    rm index*
     sleep 0.1
 done
